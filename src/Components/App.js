@@ -14,6 +14,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<div className="ui container" style={{ marginTop: '10px' }}>
+				<h1>Search for Some Images</h1>
 				<SearchBar onSearchSubmit={this.onSearchSubmit} />
 				<ImageList images={this.state.images} />
 			</div>
